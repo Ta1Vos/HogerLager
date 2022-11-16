@@ -1,0 +1,29 @@
+* {
+    clear: both;
+    margin: auto;
+}
+
+
+body {
+    background-color: beige;
+}
+
+
+#wrapper {
+    background-color: bisque;
+    width: 50%;
+    text-align: center;
+}
+
+
+header {
+    background-color: rgb(0, 162, 255);
+    margin-top: 300px;
+}
+
+
+.age-not-verified {
+    text-align: center;
+    background-color: brown;
+    font-size: 50px;
+}

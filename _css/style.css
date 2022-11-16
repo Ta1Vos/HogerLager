@@ -1,0 +1,551 @@
+body {
+    background-color: rgb(0, 80, 126);
+    margin: auto;
+}
+
+.home-image {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+
+img {
+    height: 100px;
+    size: 100px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+fieldset {
+    border: 1px solid black;
+}
+
+
+#explanation-page-wrapper {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    height: 2000px;
+    background-color: rgb(0, 162, 255);
+}
+
+#home-page-wrapper {
+    margin: auto;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 90%;
+    height: max-content;
+    padding-bottom: 22%;
+    background-color: rgb(0, 162, 255);
+}
+
+#game-page-wrapper {
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(0, 162, 255); 
+}
+
+/* Header content */
+
+
+.title{
+    background-color: rgb(255, 187, 0);
+}
+
+.title-higher{
+    text-align: center;
+    margin-right: 3%;
+    font-size: 40px;
+}
+
+.title-lower{
+    text-align: center;
+    margin-left: 3%;
+    font-size: 40px;
+}
+
+
+
+/* EXPLANATION PAGE */
+#welcome-panel {
+    background-color: beige;
+    margin: auto;
+    text-align: center;
+    width: 65%;
+    height: max-content;
+    padding: 5px;
+}
+
+
+#return-panel {
+    margin-top: 20px;
+    background-color: red;
+    text-align: center;
+    height: 3.75%;
+}
+
+/* HOME PAGE */
+
+#start-panel,
+#explanation-panel,
+#settings-panel {
+    width: 30%;
+    height: 80px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
+
+/* HOME PAGE */
+/* Buttons */
+
+.launch-game,
+.open-explanations,
+.settings-toggle {
+    display: block;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    transition: ease-out 1s;
+    font-size: 20px;
+}
+
+.launch-game:hover,
+.open-explanations:hover,
+.settings-toggle:hover {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 2s;
+}
+
+/* player names */
+
+#players {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(107, 208, 255, 0.705);
+    width: 30%;
+    height: fit-content;
+    border: 2px solid rgb(255, 187, 0);
+}
+
+/* Setting buttons */
+
+/* players */
+
+
+.player-title {
+    height: 30px;
+    background-color: rgb(255, 187, 0); 
+    font-size: 22px;
+    text-align: center;
+}
+
+.player-1-input,
+.player-2-input,
+.player-3-input,
+.players-save {
+    margin-top: 3px;
+    width: 50%;
+}
+
+
+.all-settings {
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+}
+
+
+.min-bet {
+    background-color: (255, 0, 0, 0.836);
+    margin-top: 10px;
+    width: 50%;
+    height: 35px;
+}
+
+
+/*inputs*/
+
+.minbet-input,
+.starting-points-input,
+.win-amount-input {
+    height: 20px;
+}
+
+
+
+/* EXPLANATION PAGE */ 
+/* Explanation text */
+
+
+.welcome-text {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+    padding: 3px;
+}
+
+.welcome-page-image {
+    width: 100%;
+    height: 10%;
+    transition: 0.5s;
+}
+
+.welcome-page-image img {
+    transition: 0.5s;
+    width: 45%;
+    height: 225px;
+}
+
+.welcome-page-image img:hover {
+    width: 100%;
+    height: calc(100px + 405px);
+}
+
+
+
+.explanation-return-home {
+    margin-top: 7px;
+    height: 80%;
+    width: 30%;
+}
+
+/* GAME PAGE */ 
+/*Scoreboard-panel */
+
+.game-page {
+    float:left;
+    background-color: rgb(0, 162, 255);
+    height: 400px;
+    width: 33%;
+    border: 2px solid black;
+}
+
+.game-page:hover {
+    background-color: rgb(5, 167, 255);
+}
+
+#score-title {
+    background-color: rgb(161, 238, 253);
+    margin:auto;
+    margin-top: 10px;
+    padding: 1px;
+    width: 75%;
+}   
+
+.scoreboard-panel p {
+    margin: 10%;
+    font-size: 20pt;
+    background-color: rgb(131, 208, 253);
+    line-height: 200%;
+    padding: 1px;
+}
+
+.scoreboard-player1-name,
+.scoreboard-player2-name {
+    padding-left: 10%;
+    float:left;
+}
+
+
+/* Points panel */
+
+.points-panel p {
+    background-color: rgb(70, 148, 194);
+    margin: 20px;
+    margin-top: 50px;
+    padding: 3%;
+    font-size: 25px;
+}
+
+.round-winner-text {
+    background-color: rgb(70, 148, 194);
+    margin: 20px;
+    margin-top: 50px;
+    padding: 3%;
+    font-size: 25px;
+}
+
+.round-winner-text-cyan {
+    background-color: cyan;
+}
+
+/* Dice panel */
+
+.dice-wrapper {
+    background-color: red;
+    margin: auto;
+    margin-top: 25%;
+    height: 100px;
+    width: 80%;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.dice1-panel h2,
+.dice2-panel h2 {
+    font-weight: normal;
+    background-color: lightblue;
+    padding: 5px;
+}
+
+
+.dice1-css {
+    float: left;
+    margin-left: 5%;
+    width: 100px;
+    height: 100px;
+}
+
+.dice2-css {
+    float: right;
+    margin-right: 5%;
+    width: 100px;
+    height: 100px;
+}
+
+/* Player button panel */
+
+.decoration1-button {
+    display: inline-block;
+    border-radius: white;
+    border: 4px double white;
+    font-size: 28px;
+    padding: 10px;
+    width: 200px;
+    margin: 5px;
+}
+
+
+.higher-button {
+    background-color: green;
+}
+
+.higher-button:hover {
+    background-color: rgb(1, 197, 1);
+    cursor: pointer;
+}
+
+.higher-button-click {
+    background-color: rgb(1, 197, 1);
+}
+
+
+.lower-button {
+    margin-top: 10px;
+    background-color: brown;
+}
+
+.lower-button:hover {
+    background-color: rgb(236, 61, 61);
+    cursor: pointer;
+}
+
+.lower-button-click {
+    background-color: rgb(236, 61, 61);
+}
+
+
+
+.bet-input {
+    margin-top: 15px;
+    font-size: 20px;
+    height: 10%;
+    width: 50%;
+    border: 3px solid orange;
+}
+
+.save-bet-input {
+    display: inline-block;
+    margin-top: 7px;
+    width: 40%;
+    height: 8%;
+    border: 1px double black;
+    font-size: 14pt;
+    color: #eeeeee;
+    background-color: rgb(0, 32, 177);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.save-bet-input:hover {
+    background-color: rgb(0, 60, 255);
+}
+
+
+
+.ready-button {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    font-size: 28px;
+    padding: 10px;
+    width: 35%;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+
+.ready-button:hover {
+    background-color: #f7c2f9;
+    color: #ffffff;
+}
+
+
+/* menu panel */
+
+.play-again-button {
+    background-color: rgb(0, 65, 0);
+    margin-top: 25px;
+    width: 75%;
+    height: 20%;
+    border: 2px solid orange;
+    transition: 1.5s;
+    cursor: pointer;
+    color: lime;
+    font-size: 23pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.play-again-button:hover {
+    background-color: lime;
+    font-size: 0px;
+    transition: 3s;
+}
+
+
+.back-to-menu-button {
+    margin-top: 25%;
+    width: 75%;
+    height: 20%;
+    background-color: maroon;
+    color: rgb(255, 136, 136);
+    font-size: 23pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.back-to-menu-button:hover {
+    background-color: rgb(196, 75, 75);
+}
+
+
+/*Changing classes(javascript)*/
+
+
+.visible{
+    display: block;
+    visibility: visible;
+}
+
+.invisible{
+    display: none;
+    visibility: hidden;
+}
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+    body {
+        background-color: rgb(0, 162, 255);
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    #explanation-page-wrapper,
+    #home-page-wrapper,
+    #game-page-wrapper {
+        margin-bottom: 20%;
+    }
+
+    #start-panel,
+    #explanation-panel,
+    #settings-panel {
+        width: 50%;
+    }
+
+
+
+    #players {
+        width: 75%;
+    }
+
+    #players button,
+    #players input {
+        height: 40px;
+    }
+
+
+    .game-page {
+        width: 49%;
+        float: left;
+        height: 550px;
+        min-height: max-content;
+    }
+
+    .game-page button,
+    .game-page input {
+        min-width: 75%;
+    }
+
+    .game-page input {
+        font-size: 90%;
+    }
+
+    .higher-button,
+    .lower-button {
+        width: 90%;
+    }
+
+    .dice-wrapper {
+        height: 100px;
+    }
+
+    .dice1-panel,
+    .dice2-panel,
+    .points-panel,
+    .dice1-css,
+    .dice2-css {
+        float: right;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .game-page {
+        width: 45%;
+        float: left;
+        height: 550px;
+        min-height: max-content;
+    }
+
+    .dice1-panel,
+    .dice2-panel,
+    .points-panel,
+    .dice1-css,
+    .dice2-css {
+        float: right;
+    }
+}

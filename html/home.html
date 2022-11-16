@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/_css/style.css">
+</head>
+<body>
+    <div id="home-page-wrapper">
+        <header>
+            <p class="home-image">
+                <img src="/1img/Dice6.jpg" alt="Image" width="100" height="100">
+                <img src="/1img/Dice1.jpg" alt="Image" width="100" height="100">
+            </p>
+            <div class="title">
+                <h1 class="title-higher">Hoger</h1>
+                <h1 class="title-lower">Lager</h1>
+            </div>
+        </header>
+        <!-- start button panel -->
+        <article id="start-panel">
+            <button class="launch-game">Start</button>
+        </article>
+        <!-- Player & Explanation button panel -->
+        <article id="explanation-panel">
+            <button class="open-explanations">Uitleg & Handleiding</button>
+        </article>
+        <article id="players">
+            <p class="player-title">
+                Opgeslagen spelernamen
+            </p>
+            <fieldset width="200px">
+                <input type="text" class="player-1-input" placeholder="Speler1"><br>
+                <input type="text" class="player-2-input" placeholder="Speler2(laat leeg met 1 speler)"><br>
+                <button class="players-save">Sla namen op</button>
+            </fieldset>
+        </article>  
+        <!-- Settings panel -->
+        <article id="settings-panel">
+            <button class="settings-toggle">Instellingen</button>
+            <!-- All settings for the game -->
+            <div class="all-settings invisible">
+                <p>
+                    <button class="min-bet">Minimale Inzet: Uit</button>
+                </p>
+                <!-- class that can be toggled with the min-bet button -->
+                <p class="minbet-setting invisible">
+                    Minimum Aantal Inzet<br>
+                    <input class="minbet-input" type="text" placeholder="(Voer hier aantal punten in)"><br>
+                    <button class="minbet-amount-button">Sla verplichte inzet op (0)</button>
+                </p>
+                <p>
+                    Minimum Aantal Begin-Punten<br>
+                    <input class="starting-points-input" type="text" placeholder="(Voer hier aantal punten in)"><br>
+                    <button class="starting-points">Sla beginpunten op (50)</button></li>
+                </p>
+                <p>
+                    Benodigd aantal punten om te winnen<br>
+                    <input class="win-amount-input" type="text" placeholder="(Voer hier aantal punten in)"><br>
+                    <button class="win-amount">Sla het aantal punten op nodig om te winnen (1000)</button>
+                </p>
+            </div>
+        </article>  
+    </div>
+    <script type="application/javascript" src="/js/menu.js"></script>
+</body>
+</html>
