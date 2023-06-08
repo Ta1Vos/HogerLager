@@ -159,7 +159,7 @@ function gameRedirectToMenu() {
     const menuConfirm = confirm(`Weet u zeker dat u het spel wilt verlaten? Alle punten zullen verloren gaan.`);
 
     if (menuConfirm == true) {
-        window.location = "/home.html";
+        window.location = "home.html";
     }
 }
 
