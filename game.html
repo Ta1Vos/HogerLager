@@ -17,7 +17,7 @@
         </header> 
         <main>
             <!-- Scores of all players/computer -->
-            <article class="scoreboard-panel game-page">
+            <div class="scoreboard-panel game-page">
                 <div id="score-title">
                     <h1>Speler scores</h1>
                 </div>
@@ -27,9 +27,9 @@
                 <p>
                     <span class="scoreboard-player2-name">Speler 2 </span><span class="player2-score">[Score]</span> punten
                 </p>
-            </article>
+            </div>
             <!-- Results of the round & everything in the bank -->
-            <article class="points-panel game-page">   
+            <div class="points-panel game-page">   
                 <p>
                     Bank: <span class="bank-points">[Punten]</span> punten.
                 </p>
@@ -39,9 +39,9 @@
                 <div class="round-winner-text">
                     Winnaar deze ronde: <span class="winner-name">[Speler]</span> heeft <span class="winner-points">[Punten]</span> punten gewonnen.
                 </div>
-            </article>
+            </div>
             <!-- The panel for the first dice -->
-            <article class="dice1-panel game-page">
+            <div class="dice1-panel game-page">
                 <h1>Dobbelstenen van: <span class="dicepanel-p1-name">Speler 1</span></h1>
                 <h2>
                     Er is vorige worp <b><span class="p1-last-throw">nog niet</span></b> gegooid
@@ -54,9 +54,9 @@
                         <img src="img/Dice2.jpg" alt="Dice2">
                     </span>
                 </div>
-            </article>
+            </div>
             <!-- The buttons for the player(s) to choose -->
-            <article class="playerchoice-panel game-page">
+            <div class="playerchoice-panel game-page">
                 <h1 class="game-player-change">
                     Speler 1
                 </h1>
@@ -65,15 +65,15 @@
                 <input type="text" class="bet-input" placeholder="Voer hier uw inzet in"><br>
                 <button class="save-bet-input">Sla inzet op</button><br>
                 <button class="ready-button"><span>KLAAR</span></button>
-            </article>
+            </div>
             <!-- The panel where you have the main options/possible settings -->
-            <article class="menu-panel game-page">
+            <div class="menu-panel game-page">
                 <button class="play-again-button">Speel opnieuw</button>
                 <br>
                 <button class="back-to-menu-button">Terug naar het menu</button>
-            </article>
+            </div>
             <!-- The panel for the second dice -->
-            <article class="dice2-panel game-page">
+            <div class="dice2-panel game-page">
                 <h1>Dobbelstenen van: <span class="dicepanel-p2-name">Speler 2</span></h1>
                 <h2>
                     Er is vorige worp <b><span class="p2-last-throw">nog niet</span></b> gegooid
@@ -86,9 +86,9 @@
                         <img src="img/Dice2.jpg" alt="Dice2">
                     </span>
                 </div>
-            </article>
+            </div>
         </main>
     </div>
-    <script type="application/javascript" src="js/game.js"></script>
+    <script src="js/game.js"></script>
 </body>
 </html>
