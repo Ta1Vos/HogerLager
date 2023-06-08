@@ -178,15 +178,15 @@ function throwPlayerDice(playerNumber) {
         player1Dice1 = getRandomNumber(6);
         player1Dice2 = getRandomNumber(6);
 
-        document.querySelector(`.player1-dice1`).innerHTML = (`<img src="/img/Dice${player1Dice1}.jpg" width="100" height="100" alt="Dice ${player1Dice1}"> `);
-        document.querySelector(`.player1-dice2`).innerHTML = (`<img src="/img/Dice${player1Dice2}.jpg" width="100" height="100" alt="Dice ${player1Dice2}"> `);
+        document.querySelector(`.player1-dice1`).innerHTML = (`<img src="img/Dice${player1Dice1}.jpg" width="100" height="100" alt="Dice ${player1Dice1}"> `);
+        document.querySelector(`.player1-dice2`).innerHTML = (`<img src="img/Dice${player1Dice2}.jpg" width="100" height="100" alt="Dice ${player1Dice2}"> `);
     } else if (playerNumber == 2) {
         //Player 2 throw
         player2Dice1 = getRandomNumber(6);
         player2Dice2 = getRandomNumber(6);
 
-        document.querySelector(`.player2-dice1`).innerHTML = (`<img src="/img/Dice${player2Dice1}.jpg" width="100" height="100" alt="Dice ${player2Dice1}"> `);
-        document.querySelector(`.player2-dice2`).innerHTML = (`<img src="/img/Dice${player2Dice2}.jpg" width="100" height="100" alt="Dice ${player2Dice2}"> `);
+        document.querySelector(`.player2-dice1`).innerHTML = (`<img src="img/Dice${player2Dice1}.jpg" width="100" height="100" alt="Dice ${player2Dice1}"> `);
+        document.querySelector(`.player2-dice2`).innerHTML = (`<img src="img/Dice${player2Dice2}.jpg" width="100" height="100" alt="Dice ${player2Dice2}"> `);
     } else {
         alert(`Er is iets misgegaan!`);
     }
