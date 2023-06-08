@@ -82,13 +82,13 @@ function redirectToGame() {
 
     if (redirectConfirm == true) {
         saveSessionStorage();
-        window.location = "/html/game.html";
+        window.location = "game.html";
     }
 } 
 
 function redirectToExplanation() {
     saveSessionStorage();
-    window.location = `/html/explanation.html`;
+    window.location = `explanation.html`;
 }
 
 

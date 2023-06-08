@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', init, false);
 function redirectToHome() {
-    window.location = "html/home.html";
+    window.location = "home.html";
 }
 
 

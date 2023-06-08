@@ -159,7 +159,7 @@ function gameRedirectToMenu() {
     const menuConfirm = confirm(`Weet u zeker dat u het spel wilt verlaten? Alle punten zullen verloren gaan.`);
 
     if (menuConfirm == true) {
-        window.location = "/html/home.html";
+        window.location = "/home.html";
     }
 }
 
@@ -515,7 +515,7 @@ function playAgainButtonActivate() {
             buttonPlayerReady.classList.add(`invisible`);
         }, 1);
     } else if (isPlayButtonActivated == true) {
-        window.location = (`/html/game.html`);
+        window.location = (`/game.html`);
     }
 }
 
