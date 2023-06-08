@@ -20,25 +20,25 @@
             </div>
         </header>
         <!-- start button panel -->
-        <article id="start-panel">
+        <div id="start-panel">
             <button class="launch-game">Start</button>
-        </article>
+        </div>
         <!-- Player & Explanation button panel -->
-        <article id="explanation-panel">
+        <div id="explanation-panel">
             <button class="open-explanations">Uitleg & Handleiding</button>
-        </article>
-        <article id="players">
+        </div>
+        <div id="players">
             <p class="player-title">
                 Opgeslagen spelernamen
             </p>
-            <fieldset width="200px">
+            <fieldset>
                 <input type="text" class="player-1-input" placeholder="Speler1"><br>
                 <input type="text" class="player-2-input" placeholder="Speler2(laat leeg met 1 speler)"><br>
                 <button class="players-save">Sla namen op</button>
             </fieldset>
-        </article>  
+        </div>  
         <!-- Settings panel -->
-        <article id="settings-panel">
+        <div id="settings-panel">
             <button class="settings-toggle">Instellingen</button>
             <!-- All settings for the game -->
             <div class="all-settings invisible">
@@ -54,7 +54,7 @@
                 <p>
                     Minimum Aantal Begin-Punten<br>
                     <input class="starting-points-input" type="text" placeholder="(Voer hier aantal punten in)"><br>
-                    <button class="starting-points">Sla beginpunten op (50)</button></li>
+                    <button class="starting-points">Sla beginpunten op (50)</button>
                 </p>
                 <p>
                     Benodigd aantal punten om te winnen<br>
@@ -62,8 +62,8 @@
                     <button class="win-amount">Sla het aantal punten op nodig om te winnen (1000)</button>
                 </p>
             </div>
-        </article>  
+        </div>  
     </div>
-    <script type="application/javascript" src="js/menu.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
